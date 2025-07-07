@@ -26,7 +26,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Younes joue a Apex Legends et il est nul
+        Test
       </p>
     </>
   )
