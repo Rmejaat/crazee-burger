@@ -1,10 +1,10 @@
 import LoginForm from "./LoginForm"
 
-export default function LoginPage() {
+export default function LoginPage({name, setName}) {
 
   return (
     <div>
-      <LoginForm />
+      <LoginForm name={name} setName={setName} />
     </div>
   )
 }
