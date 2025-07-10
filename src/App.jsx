@@ -6,13 +6,11 @@ import { useState } from "react"
 
 function App() {
 
-  const [name, setName] = useState("")
-
   return (
     <>
     <Routes>
-      <Route path="/" element={<LoginPage name={name} setName={setName} />} />
-      <Route path="/order" element={<OrderPage name={name} setName={setName} />} />
+      <Route path="/" element={<LoginPage/>} />
+      <Route path="/order/:username" element={<OrderPage/>} />
       <Route path="*" element={<ErrorPage />} />
     </Routes>
     </>

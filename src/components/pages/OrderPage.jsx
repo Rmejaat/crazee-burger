@@ -1,10 +1,13 @@
-import { Link } from "react-router";
+import { Link, useParams } from "react-router";
 
-export default function OrderPage({name, setName}) {
+export default function OrderPage() {
+
+    const {username} = useParams();
+
     return (
         <div>
-            <h1>Bienvenue {name}</h1>
-            <Link to="/" onClick={()=> setName("")}><button>Déconnexion</button></Link>
+            <h1>Bienvenue {username}</h1>
+            <Link to="/"><button>Déconnexion</button></Link>
         </div>
     )
 }
