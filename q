@@ -1,0 +1,15 @@
+[33m8e8fb5c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Merge pull request #2 from Rmejaat/F02
+[33m54a9da6[m[33m ([m[1;31morigin/F02[m[33m, [m[1;32mF03[m[33m, [m[1;32mF02[m[33m)[m ✅ F02: Main > add StrictMode
+[33m30064f1[m ♻️ F02: Login > refacto du code
+[33m53f1b5e[m ✨F02: App > Fixing routing
+[33m8a5bdc0[m ✨ F02: App > Add ErrorPage and OrderPage
+[33m92639a9[m 🎨 F02: Main > Add BrowserRouter
+[33ma18810a[m ➕ F02: Add react-router
+[33m129c493[m Merge pull request #1 from Rmejaat/FO1
+[33m2b4e93e[m[33m ([m[1;31morigin/FO1[m[33m, [m[1;32mFO1[m[33m)[m ✨ F01: Login > Add LoginForm
+[33m90e71f3[m ✨ F01: Login > Create LoginPage
+[33mfaaa357[m 🎨 F01: Main > Exclusion index.css
+[33m72f7c4d[m 🔥 FO1: Delete react.svg
+[33mb05a943[m F0 - Début du Projet.
+[33me552ab0[m Modification du texte dans le composant App pour remplacer la phrase par "Test".
+[33m8c24ee8[m Connection des repos
