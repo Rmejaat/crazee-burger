@@ -2,6 +2,7 @@ import { useState } from "react";
 import {useNavigate } from "react-router"
 import styled from "styled-components";
 import { theme } from "../../../theme";
+import Input from "./Input";
 
 export default function LoginForm() {
 
@@ -17,8 +18,8 @@ export default function LoginForm() {
             <h1>Bienvenue chez nous !</h1>
             <hr />
             <h2>Connectez-vous</h2>
-            <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Entrez votre prénom" required/>
-            <button>Accèdez à votre espace</button>
+            <Input name={name} setName={setName}/>
+            <button>Accèdez à mon espace</button>
         </LoginFormStyle>
     )
 }
@@ -78,11 +79,11 @@ const LoginFormStyle = styled.form`
         margin: 16px 32px 40px 32px;
     }
 
-    input {
-        width: 400px;
-        height: 55px;
-        border: solid ${theme.colors.white};
-        border-radius: 5px;
-        margin: 16 32 0 32;
+    button:hover, button:active {
+        background-color: ${theme.colors.white} ;
+        color: ${theme.colors.primary_burger};
     }
+
+    
+
 `
